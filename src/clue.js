@@ -133,6 +133,8 @@ function revealMystery(result) {
 //you can find the link below, i copied exactly what i did here, just the last return is a console.log
 //https://codepen.io/makariuz/pen/QWMYwJy?editors=0012
 
+//after analysis I noticed that i was declaring unecessary variables in revealMystery
+
 
 // The following is required to make unit tests work.
 /* Environment setup. Do not modify the below code. */
