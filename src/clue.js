@@ -123,10 +123,9 @@ function pickMystery() {
 
 // ITERATION 3
 
-function revealMystery() {
+function revealMystery(result) {
 
-  const envelope = pickMystery()
-  return `${envelope['suspect'].firstName} ${envelope['suspect'].lastName} killed Mr. Boddy using the ${envelope['weapon'].name} in the ${envelope['room'].name}!`
+  return `${result['suspect'].firstName} ${result['suspect'].lastName} killed Mr. Boddy using the ${result['weapon'].name} in the ${result['room'].name}!`
 
 }
 
